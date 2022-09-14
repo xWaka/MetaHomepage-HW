@@ -1,0 +1,106 @@
+body {
+  margin: 3rem 5%;
+  background-color: antiquewhite;
+}
+
+h1 {
+  display: inline;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+  display: inline;
+}
+
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  background-color: goldenrod;
+  border-radius: 10px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+nav li {
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: black;
+}
+
+nav li a {
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+}
+
+section {
+  display: flex;
+  margin-top: 30px;
+}
+
+article {
+  flex: 1;
+  margin-top: 20px;
+}
+
+article > p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article > button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+footer {
+  display: flex;
+  margin-top: 80px;
+}
+
+footer div {
+  flex: 1;
+}
+
+div > p {
+  float: right;
+  margin-top: 100px;
+  font-weight: bold;
+}
+
+div > img {
+  margin-top: 50px;
+}
+
+article > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+button {
+  width: 10em;
+  height: 5ex;
+  background-color: goldenrod;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: gray;
+}
